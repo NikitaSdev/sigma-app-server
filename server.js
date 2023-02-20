@@ -18,22 +18,20 @@ dotenv.config()
 const app = express()
 
 const main = async() =>{
-    app.use(cors({
-        origin:false
-    }))
+    app.use(cors())
     if(process.env.NODE_ENV === 'development'){
         app.use(morgan('dev'))
     }
     app.use(express.json())
     const __dirname = path.resolve()
-    app.use('/uploads',express.static(path.join(__dirname,'/uploads/')))
-    app.use('/api/auth',authRoutes)
-    app.use('/api/users', userRoutes)
-    app.use('/api/exercises', exerciseRoutes)
-    app.use('/api/workouts',workoutRoutes)
-    app.use(notFound)
-    app.use(errorHandler)
-    const PORT = process.env.PORT || 5000
+    app.use('/uploads',express.static(path.join(__dirname,'/uploads/')),cors())
+    app.use('/api/auth',authRoutes,cors())
+    app.use('/api/users', userRoutes,cors())
+    app.use('/api/exercises', exerciseRoutes,cors())
+    app.use('/api/workouts',workoutRoutes,cors())
+    app.use(notFound,cors())
+    app.use(errorHandler,cors())
+    const PORT = process.env.PORT || 8000
     app.listen(
         PORT,
         console.log(
