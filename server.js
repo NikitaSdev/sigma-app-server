@@ -31,7 +31,7 @@ const main = async() =>{
     app.use('/api/workouts',workoutRoutes,cors())
     app.use(notFound,cors())
     app.use(errorHandler,cors())
-    const PORT = process.env.PORT || 8000
+    const PORT = process.env.PORT || 5000
     app.listen(
         PORT,
         console.log(
