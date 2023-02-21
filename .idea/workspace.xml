@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6d1fc5b-e7e4-4a53-a156-9ec766c6c977" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/auth/auth.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/auth/auth.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/auth/generate-token.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/exersice/exercise.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/exersice/exercise.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/exersice/log/add-prev-values.util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/exersice/log/exercise-log.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/exersice/log/get-exercise-log.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/exersice/log/update-exercise-log.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/middleware/auth.middleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/middleware/error.middleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/prisma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/user/user.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/user/user.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/utils/user.utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/workout/calculate-minutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/workout/log/get-workout-log.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/workout/log/update-workout-log.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/workout/log/workout-log.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/workout/workout.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/workout/workout.routes.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2M3cHCIelST3N6ijICFOjjeaBc3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/nikita/Desktop/workout-app/wa-client",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6d1fc5b-e7e4-4a53-a156-9ec766c6c977" name="Changes" comment="" />
+      <created>1676999616717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676999616717</updated>
+      <workItem from="1676999618223" duration="1218000" />
+      <workItem from="1677001711653" duration="904000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
