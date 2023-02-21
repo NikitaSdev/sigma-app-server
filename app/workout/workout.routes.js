@@ -1,22 +1,33 @@
-import express from "express";
-import {CreateNewWorkout, DeleteWorkout, GetWorkout, GetWorkouts, UpdateWorkout,} from "./workout.controller.js";
-import {protect} from "../middleware/auth.middleware.js";
-import {createNewWorkoutLog} from "./log/workout-log.controller.js";
-import {getWorkoutLog} from "./log/get-workout-log.controller.js";
-import {updateCompleteWorkoutLog} from "./log/update-workout-log.controller.js";
+import express from 'express'
+
+import { protect } from '../middleware/auth.middleware.js'
+
+import { getWorkoutLog } from './log/get-workout-log.controller.js'
+import { updateCompleteWorkoutLog } from './log/update-workout-log.controller.js'
+import { createNewWorkoutLog } from './log/workout-log.controller.js'
+import {
+	createNewWorkout,
+	deleteWorkout,
+	getWorkout,
+	getWorkouts,
+	updateWorkout
+} from './workout.controller.js'
 
 const router = express.Router()
-router.route('/').post(protect,CreateNewWorkout).get(protect,GetWorkouts)
+
+router.route('/').post(protect, createNewWorkout).get(protect, getWorkouts)
 
 router
-    .route('/:id')
-    .get(protect,GetWorkout)
-    .put(protect,UpdateWorkout)
-    .delete(protect,DeleteWorkout)
+	.route('/:id')
+	.get(protect, getWorkout)
+	.put(protect, updateWorkout)
+	.delete(protect, deleteWorkout)
 
-router.route('/log/:id')
-    .post(protect,createNewWorkoutLog)
-    .get(protect, getWorkoutLog)
+router
+	.route('/log/:id')
+	.post(protect, createNewWorkoutLog)
+	.get(protect, getWorkoutLog)
 
-router.route('/log/complete/:id').patch(protect,updateCompleteWorkoutLog)
+router.route('/log/complete/:id').patch(protect, updateCompleteWorkoutLog)
+
 export default router
