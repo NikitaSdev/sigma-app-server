@@ -1,4 +1,4 @@
-import { faker } from '@faker-js/faker'
+
 import { hash, verify } from 'argon2'
 import asyncHandler from 'express-async-handler'
 
