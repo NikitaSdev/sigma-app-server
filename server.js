@@ -18,7 +18,9 @@ dotenv.config()
 const app = express()
 
 const main = async() =>{
-    app.use(cors())
+    app.use(cors({
+        origin:'http://1269893-cf00631.tw1.ru'
+    }))
     if(process.env.NODE_ENV === 'development'){
         app.use(morgan('dev'))
     }
